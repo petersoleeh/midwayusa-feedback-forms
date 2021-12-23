@@ -18,8 +18,6 @@ export default function NavBar() {
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
-
-
                         <li className="nav-item">
                             <Link
                                 to="/arrivals"
@@ -39,7 +37,7 @@ export default function NavBar() {
                                 Sales and Clearance
                             </Link>
                         </li>
-                         </ul>
+                    </ul>
                 </div>
             </nav>
         </React.Fragment>
